@@ -1,7 +1,9 @@
 import sqlite3
+import csv
+#dependencies
 import tweepy
 from textblob import TextBlob
-import csv
+
 
 
 def createtable():
