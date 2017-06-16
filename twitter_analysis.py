@@ -3,7 +3,7 @@ import csv
 #dependencies
 import tweepy
 from textblob import TextBlob
-
+import matplotlib.pyplot as plt
 
 
 def createtable():
@@ -278,7 +278,16 @@ else:
 	count=count+1'''
 print("Postive Tweet %  = {} \nNegative Tweet % = {} \nNetural Tweet % = {}".format(float((positive_count/count)*100),float((negative_count/count)*100),float((netural_count/count)*100)))
 print("\tPostive Tweets = {} \n\tNegative Tweets = {} \n\tNetural Tweets = {}".format(positive_count,negative_count,netural_count))
+plt.bar([2],positive_count,label='Positive',color='c')
+plt.bar([4],negative_count,label='Negative',color='r')
+plt.bar([6],netural_count,label='Neutral',color='k')
+plt.legend()
+plt.title("Sentimental analysis ")
+plt.show()
 
 
 
-print('The option are ',options)
+#print('The option are ',options)
+
+
+
