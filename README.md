@@ -13,6 +13,6 @@ Once your are done installing the dependencies ,Run the script via terminal
 
 ```python twitter_analysis.py```
 
-Credits [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/featured),Twitter part is done following his videos ,I added function to analyses and export it to 'Text' , 'CSV and 'SQL' files based on the users option.
+Credits [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/featured),Twitter part is done following his videos ,I added functions to analyses and exported it to 'Text' , 'CSV and 'SQL' files based on the users option.
 
 
